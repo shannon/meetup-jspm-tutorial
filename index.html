@@ -1,0 +1,13 @@
+<!docype html>
+<html ng-app="jspmTutorial">
+    <meta charset="utf-8">
+    <script src="/jspm_packages/system.js"></script>
+    <script src="/jspm.config.js"></script>
+    <script src="/jspm.bundle.js"></script>
+    <script type="text/javascript">
+        System.import('jspm-tutorial');
+    </script>
+    <body ng-controller='appCtrl'>
+        <md-button class="md-primary">{{foo}}</md-button>
+    </body>
+</html>
